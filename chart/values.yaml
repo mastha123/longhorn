@@ -81,13 +81,13 @@ defaultSettings:
   backupTarget: ~
   backupTargetCredentialSecret: ~
   allowRecurringJobWhileVolumeDetached: ~
-  createDefaultDiskLabeledNodes: ~
-  defaultDataPath: ~
+  createDefaultDiskLabeledNodes: true
+  defaultDataPath: "/srv/longhorn/"
   defaultDataLocality: ~
   replicaSoftAntiAffinity: ~
   replicaAutoBalance: ~
   storageOverProvisioningPercentage: ~
-  storageMinimalAvailablePercentage: ~
+  storageMinimalAvailablePercentage: 10
   upgradeChecker: ~
   defaultReplicaCount: ~
   defaultLonghornStaticStorageClass: ~
